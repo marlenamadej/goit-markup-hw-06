@@ -707,6 +707,18 @@ img {
     pointer-events:none;
 }
 
+.confirmation-text{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.doc{
+    text-decoration: underline;
+    color:#2196f3;
+}
+
 /*========END FOOTER ========*/
 
 /*========PORTFOLIO ========*/
