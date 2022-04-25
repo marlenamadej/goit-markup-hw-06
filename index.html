@@ -412,23 +412,24 @@
             <form class="form">
                 <h4 class="form-header">Zostaw swoje dane w formularzu poniżej</h4>
                 <label class="form-item">
-                    Imię
-                    <input class="form-input" type="text" name="user" placeholder="xxx">
+                    <span class="label-text">Imię</span>
+                    <input type="text" class="form-input" name="username" placeholder="xxx">
                 </label>
                 <label class="form-item">
-                    Telefon
-                    <input class="form-input" type="text" name="user-phone" placeholder="xxx">
+                    <span class="label-text">Telefon</span>
+                    <input type="text" class="form-input" name="user-phone" placeholder="xxx">
                 </label>
                 <label class="form-item">
-                    Email
-                    <input class="form-input" type="email" name="user-email" placeholder="xxx">
+                    <span class="label-text">Email</span>
+                    <input type="email" class="form-input" name="user-email" placeholder="xxx">
                 </label>
                 <label class="form-item">
-                    Komentarz
-                    <textarea class="form-textarea" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+                    <span class="label-text">Komentarz</span>
+                    <textarea name="feedback" class="form-textarea" rows="xxx" placeholder="Wprowadź tekst"></textarea>
                 </label>
-                <input type="checkbox" name="confirmation" value="sports" />
-                <p class="confirmation-text">Oświadczam iż akceptuję <span class="doc">Regulamin</span> i <span class="doc">Politykę Prywatności.</span></p>
+                <label class="user-policy">
+                    <input class="user-policy-checkbox visually-hidden" type="checkbox" name="policy">
+                    <p class="user-policy-text">Oświadczam iż akceptuję <a class="doc" href="Regulamin">Regulamin</a> i <a class="doc" href="Politykę Prywatności">Politykę Prywatności.</a></p>
                 </label>
                 <button class="form-button" type="submit">Wyślij</button>
             </form>
