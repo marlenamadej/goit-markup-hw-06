@@ -264,8 +264,14 @@
                 <li class="newsletter">
                     <h4 class="newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</h4>
                     <form class="newsletter-form">
-                        <input type="email" class="newsletter-form-input" name="email" placeholder="E-mail"/>
-                        <button class="newsletter-button" type="submit">Zapisz się</button>
+                        <label name="sign-form">
+                            <input type="email" class="newsletter-form-input" name="email" placeholder="E-mail"/>
+                        </label>
+                        <button class="newsletter-button" type="submit"><p class=sign-in>Zapisz się</p>
+                            <svg class="newsletter-button-icon" width="24" height="24">
+                                <use href="images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
                     </form>
                 </li>
             </ul>
