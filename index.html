@@ -394,9 +394,11 @@
                 <li class="newsletter">
                     <h4 class="newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</h4>
                     <form class="newsletter-form">
-                        <input type="email" class="newsletter-form-input" name="email" placeholder="E-mail"/>
-                        <button class="newsletter-button" type="submit">Zapisz się
-                            <svg class="newsletter-button-icon">
+                        <label name="sign-form">
+                            <input type="email" class="newsletter-form-input" name="email" placeholder="E-mail"/>
+                        </label>
+                        <button class="newsletter-button" type="submit"><p class=sign-in>Zapisz się</p>
+                            <svg class="newsletter-button-icon" width="24" height="24">
                                 <use href="images/icons.svg#icon-icon-send"></use>
                             </svg>
                         </button>
@@ -448,11 +450,20 @@
                   Komentarz
                   <textarea class="modal-form-message" name="user-message" rows="7" placeholder="Wprowadź tekst"></textarea>
                 </label>
-                <label class="user-policy">
-                    <input class="user-policy-checkbox visually-hidden" type="checkbox" name="policy">
-                    <p class="user-policy-text">Oświadczam iż akceptuję <a class="doc" href="Regulamin">Regulamin</a> i <a class="doc" href="Politykę Prywatności">Politykę Prywatności.</a></p>
-                </label>
-                <button class="form-button" type="submit">Wyślij</button>
+                <div class="policy">
+                    <input
+                      id="user-policy"
+                      type="checkbox"
+                      class="modal-form-policy-checkbox"
+                      name="policy"
+                      value="accept-policy"
+                    />
+                    <label for="user-policy" class="modal-form-policy-text">
+                      Oświadczam, iż akceptuję <a href="#regulamin">Regulamin</a> i
+                      <a href="#policy">Politykę Prywatności.</a>
+                    </label>
+                  </div>
+                  <button type="submit" class="order-btn">Wyślij</button>
             </form>
         </div>
     </div>
