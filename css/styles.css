@@ -912,6 +912,9 @@ img {
     width:1px !important;
     overflow:hidden;
     margin-left:54px;
+    -moz-appearance: none;    
+    -webkit-appearance: none;    
+    appearance: none;
 }
 
 .form-button{
