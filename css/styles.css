@@ -163,7 +163,7 @@ img {
 
 .current .navigation-list-link::after{
     position: relative;
-    top: 35px;
+    top: 29px;
     display:block;
     justify-content: center;
     content:"";
@@ -232,10 +232,6 @@ img {
 /*========END MAIN========*/
 
 /*========FEATURES========*/
-
-.features .container {
-    width: 1200px;
-}
 
 .features {
     display: flex;
