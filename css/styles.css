@@ -181,6 +181,8 @@ img {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url("../images/backgroundresized.jpg");
+        padding-top: 200px;
+        padding-bottom:200px;
 }
 
 .background-header {
@@ -191,7 +193,10 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 200px 255.2px 30px 255.2px;
+    margin-left: auto;
+    margin-right: auto;
+    width:696px;
+    padding-bottom:30px;
 }
 
 .background-button {
@@ -210,7 +215,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 41px;
-    margin-bottom: 200px;
 }
 
 .background-button:hover,
@@ -228,11 +232,6 @@ img {
 /*========END MAIN========*/
 
 /*========FEATURES========*/
-
-.container {
-    width: 1200px;
-    padding: 5px;
-}
 
 .features .container {
     width: 1200px;
